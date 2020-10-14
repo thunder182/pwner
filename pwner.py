@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+
+import os
+
 class Exploit(Exploit):
     __info__ = {
         "name": "pwner",
