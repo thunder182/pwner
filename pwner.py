@@ -5,13 +5,6 @@ import os
 class Exploit(Exploit):
     __info__ = {
         "name": "pwner",
-        "desc": "scan tool for exploits",
-        "authors": (
-            "Ambarish Sengupta"
-        ),
-        "devices": (
-            "Routers",
-        ),
     }
     modules = ["routers"]
 
