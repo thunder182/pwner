@@ -5,7 +5,7 @@ import os
 class Exploit(Exploit):
     __info__ = {
         "name": "pwner",
-        "date": "10/29/20"
+        "date": "12/21/20"
     }
     modules = ["routers"]
 
