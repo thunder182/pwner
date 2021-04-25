@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-
+#Author: Ambarish Sengupta
+#Last Update: 25.4.21
 import os
 
 class Exploit(Exploit):
@@ -58,7 +59,7 @@ class Exploit(Exploit):
         self.creds = []
         self.not_verified = []
 
-        # vulnerabilities
+        # vulns
         print_info()
         print_info("\033[94m[*]\033[0m", "Starting vulnerablity check...".format(self.target))
         # Update list of directories with specific vendor if needed
